@@ -1,0 +1,148 @@
+
+.body-light {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.container-header-light {
+    background: url('../assets/img/bg/light/hader-bg-light.jpg');
+    background-repeat: no-repeat;
+    background-position: var(--headerImg);
+    background-size: var(--sizeHeader);
+}
+
+.container-bg-hero-light {
+    margin: var(--marginBg);
+    background: url('../assets/img/bg/light/hader-bg-light.jpg');
+    background-position: center -90px;
+    background-repeat: no-repeat;
+    background-size: 1440px auto;
+    padding: 60px;
+}
+
+.container-bg-contact-light {
+    background: url('../assets/img/bg/light/contacts-bg-light.jpg');
+}
+
+.link-light {
+    color: var(--black);
+}
+
+.button-Ag-light {
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.button-Ag-light:hover {
+    color: var(--gold);
+    background-color: var(--black);
+}
+
+.price-section>.button-Ag-light {
+    color: var(--black);
+    background-color: var(--gold);
+}
+
+.price-section>.button-Ag-light:hover {
+    color: var(--white);
+}
+
+.button-tr-light {
+    color: var(--black);
+    background-color: var(--gold);
+    border: 2px solid #BDAE82;
+}
+
+.button-tr-light.active {
+    color: var(--gold);
+    background-color: var(--black);
+    border: 2px solid #BDAE82;
+}
+
+.button-tr-light:hover {
+    color: var(--white);
+}
+
+.icons-light {
+    fill: var(--black);
+}
+
+.icons-light:hover {
+    fill: var(--gold);
+}
+
+.en-ru-light {
+    color: var(--black);
+    transition: color 0.5s;
+}
+.en-ru-light:hover {
+    color: var(--gold);
+}
+
+.en-ru-light.active {
+    color: var(--white);
+}
+
+.en-ru-light.active:hover {
+    color: var(--gold);
+}
+
+.light-light:hover {
+    filter: invert(80%) sepia(31%) saturate(335%) hue-rotate(7deg) brightness(84%) contrast(85%);
+}
+
+.heading-light:before,
+.heading-light:after {
+    background: var(--black);
+    }
+    
+.section-title-light {
+    color: var(--black);
+}
+
+.video-player-icon-light {
+    filter: invert(100%) sepia(14%) saturate(0%) hue-rotate(200deg) brightness(101%) contrast(103%);
+}
+
+.video-player-icon-light:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+      contrast(87%);
+}
+
+.rate-light{
+    color: var(--black);
+}
+
+.input-light {
+    border: 3px solid  #000000;
+    background: transparent;
+}
+
+.burger-light .line-light{
+    background-color: var(--black);
+  }
+
+.burger-light:hover .line-light{
+    background-color: var(--gold);
+}
+
+@media (max-width: 768px) {
+
+    .container-bg-hero {
+        max-width: 768px;
+        height: 490px;
+        background-position: 0px -120px;;
+        background-size: 970px auto;
+        padding: 80px 40px;
+    }
+
+    .menu-light {
+        color: var(--black);
+    }
+
+    .nav-box-light {
+        background-color: var(--white);
+        border: 1px solid #BDAE82;
+
+    }
+}
