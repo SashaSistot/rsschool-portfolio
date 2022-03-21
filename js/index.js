@@ -117,9 +117,9 @@ function changeImeges(season) {
     changeClassActiveImageBtn(season);
 }
 
-function changeSeasonGetActivBtn (event) {
+function changeSeasonGetActivBtn (event) {  
     if (event.target.classList.contains('portfolio-btn')) {
-        season = event.target.textContent;;
+        season = event.target.title;
     }
     changeImeges(season);
 }
@@ -222,5 +222,6 @@ function getDataFromLocalStorage () {
         season = localStorage.getItem('season');
         changeImeges(season)
     }
+     
 }
 window.addEventListener('load', getDataFromLocalStorage);
