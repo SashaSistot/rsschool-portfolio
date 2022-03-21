@@ -119,7 +119,7 @@ function changeImeges(season) {
 
 function changeSeasonGetActivBtn (event) {  
     if (event.target.classList.contains('portfolio-btn')) {
-        season = event.target.title;
+        season = event.target.dataset.season;
     }
     changeImeges(season);
 }
